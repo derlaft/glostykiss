@@ -4,6 +4,8 @@ Yeah, kill the root directory! It is *FUN*, isn't it?!
 
 ## glostykiss: ext4 lost+found sort pain-killer
 
+It is an extremely simple file indexer.
+
 * ```go get github.com/derlaft/glostykiss ```
 * Usage is as simple as ```glostykiss /mnt/lost+found /tmp/database.sqlite```.
 * You will need ```<magic.h>``` (libmagic-dev package in Debian-like distros, file-devel in OpenSUSE).
